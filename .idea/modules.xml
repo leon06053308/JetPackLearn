@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JetPackLearn.iml" filepath="$PROJECT_DIR$/JetPackLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databindingdemo/databindingdemo.iml" filepath="$PROJECT_DIR$/databindingdemo/databindingdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lifecycledemo/lifecycledemo.iml" filepath="$PROJECT_DIR$/lifecycledemo/lifecycledemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewmodleandlivedata/viewmodleandlivedata.iml" filepath="$PROJECT_DIR$/viewmodleandlivedata/viewmodleandlivedata.iml" />
+    </modules>
+  </component>
+</project>

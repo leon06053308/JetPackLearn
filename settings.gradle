@@ -1,1 +1,1 @@
-include ':app', ':databindingdemo', ':lifecycledemo', ':viewmodleandlivedata', ':workmanagerdemo'
+include ':app', ':databindingdemo', ':lifecycledemo', ':viewmodleandlivedata'
