@@ -5,8 +5,7 @@ import androidx.databinding.Bindable;
 import com.example.databindingdemo.BR;
 
 public class Goods extends BaseObservable {
-    @Bindable
-    public String name;
+    private String name;
 
     //如果是 private 修饰符，则在成员变量的 get 方法上添加 @Bindable 注解
     private String details;
@@ -19,20 +18,25 @@ public class Goods extends BaseObservable {
         this.price = price;
     }
 
+    @Bindable
+    public String getName(){
+        return name;
+    }
+
     public void setName(String name){
         this.name = name;
 
-        notifyPropertyChanged(BR.name);
+        notifyChange();
+        //notifyPropertyChanged(BR.name);
     }
 
-    @Bindable
     public String getDetails(){
         return details;
     }
 
     public void setDetails(String details){
         this.details = details;
-        notifyChange();
+        //notifyChange();
     }
 
     public float getPrice() {

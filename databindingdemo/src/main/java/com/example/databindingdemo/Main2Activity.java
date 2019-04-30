@@ -27,7 +27,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onPropertyChanged(Observable sender, int propertyId) {
                 switch (propertyId){
-                    case BR.name:
+                    /*case BR.name:
                         Log.d("Leo", "BR.name");
                         break;
                     case BR.details:
@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
                         break;
                     default:
                         Log.d("Leo", "unknown");
-                        break;
+                        break;*/
                 }
             }
         });

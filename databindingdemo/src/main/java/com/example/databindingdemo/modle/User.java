@@ -4,6 +4,8 @@ public class User {
     private String name;
     private String password;
 
+    public User(){}
+
     public User(String na, String pw){
         this.name = na;
         this.password = pw;
